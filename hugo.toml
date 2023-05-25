@@ -27,9 +27,9 @@ summaryLength = 30
     showRss = false
 
     umamiScriptUrl = "https://analytics.umami.is/script.js"
-    umamiWebsiteId = "5b60075e-d339-4035-af29-8b6396434087"
+    umamiWebsiteId = "3dd97941-3e9a-4737-b27c-a9f9d8140da0"
 
-    cactusCommentsSiteName = "shubhamsetia.github.io"
+    cactusCommentsSiteName = "setiashubham.github.io"
     cactusCommentsServerName = "cactus.chat"
     cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
     
