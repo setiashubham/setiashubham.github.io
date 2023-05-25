@@ -1,0 +1,70 @@
+baseURL = "https://setiashubham.github.io/"
+languageCode = "en-us"
+title = "Shubham's Dev Blog"
+
+theme = "hugo-ficurinia"
+
+author = "Shubham Setia"
+copyright = "Shubham Setia - [Working as Software Developer](#)."
+
+paginate = 5
+summaryLength = 30
+
+[params]
+    description = "Shubham Setia's blog about programming and other cool stuff which i learn on daily basis."
+    author = "Shubham Setia"
+    logo = "/logo.png"
+    favicon = "/logo.png"
+    faviconIco = "/logo.png"
+    appletouch = "/logo.png"
+    svgicon = "/logo.png"
+    icon512 = "/logo.png"
+    imageInArticlePreview = true
+    enableShareOnFediverse = false
+    enableRelatedArticles = true
+    relatedArticlesNum = 2 
+    forceRedirect = true
+    showRss = false
+
+    umamiScriptUrl = "https://analytics.umami.is/script.js"
+    umamiWebsiteId = "5b60075e-d339-4035-af29-8b6396434087"
+
+    cactusCommentsSiteName = "shubhamsetia.github.io"
+    cactusCommentsServerName = "cactus.chat"
+    cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
+    
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        lineNumbersInTable = false
+        tabWidth = 4
+        style = "dracula"
+    [markup.tableOfContents]
+        endLevel = 5
+        ordered = false
+        startLevel = 1
+
+[menu]
+    [[menu.icons]]
+        identifier = "github"
+        name = "Github"
+        url = "#"
+        weight = 20
+    [[menu.icons]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "#"
+        weight = 30
+    [[menu.icons]]
+        identifier = "twitter"
+        name = "Twitter"
+        url = "#"
+        weight = 40
+    [[menu.icons]]
+        identifier = "email"
+        name = "Email"
+        url = "mailto:shubham.setia.3701@gmail.com"
+        weight = 50
